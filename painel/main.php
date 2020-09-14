@@ -86,7 +86,6 @@ if (isset($_GET['loogout'])) {
     <script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>
     <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/jquery.mask.js"></script>
     <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/main.js"></script>
-    <script src="https://cdn.tiny.cloud/1/0m6fb53aaktpv60q7p6kews3ce5p83wvp1g1ww29v2e9o8md/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         tinymce.init({
             selector:'textarea'
